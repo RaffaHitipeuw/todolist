@@ -3,7 +3,7 @@ import { Link } from "react-router";
 import { removeTodo } from "./todoSlice";
 
 export default function ListTodo() {
-  const todos = useSelector(state => state.todoList);
+  const todos = useSelector(state => state.todo);
   const dispatch = useDispatch();
 
   return (
